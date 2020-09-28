@@ -20,6 +20,7 @@ public class data {
 		
 		request.body(json.toJSONString());
 		request.post("https://reqres.in/api/users");
+		System.out.println("Post Request");
 	}
 
 }
