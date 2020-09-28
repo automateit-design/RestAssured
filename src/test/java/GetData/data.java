@@ -17,6 +17,7 @@ public class data {
 		int code= response.getStatusCode();
 		System.out.println("Status code:"+code);
 		Assert.assertEquals(code, 200);
+		System.out.println("Successful Response");
 	}
 	
 	@Test(priority = 1)
