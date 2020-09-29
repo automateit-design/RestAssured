@@ -8,7 +8,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class data {
 	
-	@Test
+	@Test(priority = 1)
 	public void test1()
 	{
 		RequestSpecification request= RestAssured.given();

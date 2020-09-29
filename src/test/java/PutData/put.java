@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
 
 public class put {
 	
-	@Test
+	@Test(priority = 2)
 	public void modifydata()
 	{
 		RequestSpecification request= RestAssured.given();
