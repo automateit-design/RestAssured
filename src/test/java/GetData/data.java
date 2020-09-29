@@ -26,7 +26,7 @@ public class data {
 		Response response=RestAssured.get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02");
 		String data= response.asString();
 		System.out.println("Data :"+ data);
-		System.out.println("Get Data");
+		System.out.println("This is for Get Data");
 		
 	}
 	
