@@ -29,8 +29,7 @@ public class put {
 		String data= response.asString();
 		System.out.println("Data :"+ data);
 		
-		//Assert.assertEquals(code, 200);
-		
+		System.out.println("This is put request");
 	}
 
 }
