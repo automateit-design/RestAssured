@@ -10,7 +10,7 @@ import io.restassured.response.Response;
 
 public class data {
 	
-	@Test(priority = 0)
+	@Test(priority = 3)
 	public void testResponseCode()
 	{
 		Response response=RestAssured.get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02");
@@ -20,7 +20,7 @@ public class data {
 		System.out.println("Successful Response");
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void testBody()
 	{
 		Response response=RestAssured.get("https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=439d4b804bc8187953eb36d2a8c26a02");
