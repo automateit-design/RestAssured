@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15243" started-at="2020-09-29T12:14:37 IST" finished-at="2020-09-29T12:14:52 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15243" started-at="2020-09-29T12:14:37 IST" finished-at="2020-09-29T12:14:52 IST">
+      <class name="PostData.data">
+        <test-method status="PASS" signature="test1()[pri:0, instance:PostData.data@3a883ce7]" name="test1" duration-ms="6826" started-at="2020-09-29T12:14:37 IST" finished-at="2020-09-29T12:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- PostData.data -->
+      <class name="PutData.put">
+        <test-method status="PASS" signature="modifydata()[pri:0, instance:PutData.put@4973813a]" name="modifydata" duration-ms="3983" started-at="2020-09-29T12:14:44 IST" finished-at="2020-09-29T12:14:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifydata -->
+      </class> <!-- PutData.put -->
+      <class name="GetData.data">
+        <test-method status="PASS" signature="testResponseCode()[pri:0, instance:GetData.data@6321e813]" name="testResponseCode" duration-ms="2557" started-at="2020-09-29T12:14:48 IST" finished-at="2020-09-29T12:14:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseCode -->
+        <test-method status="PASS" signature="testBody()[pri:1, instance:GetData.data@6321e813]" name="testBody" duration-ms="1798" started-at="2020-09-29T12:14:51 IST" finished-at="2020-09-29T12:14:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBody -->
+      </class> <!-- GetData.data -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
